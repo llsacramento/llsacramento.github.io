@@ -1,0 +1,140 @@
+/* .container{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 50px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.intro-text {
+    font-size: 5rem;
+    line-height: 1.6;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.web-dev {
+    font-size: 2rem;
+    margin-right: 320px;
+}
+
+.intro-highlight{
+    background: linear-gradient(to right, #F7882F,#F5B551,#FBF03C);
+    animation: rainbow 2s ease-in-out infinite;
+    background-clip: text;
+    -webkit-background-clip:text;
+    color:#fff;
+    text-align:center;
+    transition: color .2s ease-in-out;
+    font-weight:900;
+    cursor: pointer;
+}
+.intro-highlight:hover{
+    color:rgba(0,0,0,0);
+}
+@keyframes rainbow { 
+    0%{background-position:left}
+    50%{background-position:right}
+    100%{background-position:left}
+}
+
+.about {
+    height: 400px;
+}
+
+
+@media (max-width:768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    span {
+        font-size: 2rem;
+    }
+
+    .web-dev {
+        font-size: 1rem;
+    }
+} */
+
+
+section {
+    padding: 0 15%;
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.home-text {
+    color: #fff;
+}
+
+.home-text span {
+    padding: 5px 25px;
+    background: linear-gradient(130.08deg, #383528 0%, #191919 100%);
+    box-shadow: 0px 20px 40px #00000070;
+    border: 1px solid #3b3b3b;
+    border-radius: 100px;
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: all 0.6s ease-in-out;
+}
+
+.home-text span:hover {
+    color: #00abF0;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+.home-text h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    margin: 23px 0;
+    margin-top: 30px;
+    transition: all 0.6s ease-in-out;
+}
+
+.home-text h1:hover {
+    color:#00abF0;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+
+.home-text p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #c3c3c3;
+    line-height: 30px;
+    margin-top: 30px;
+}
+.home-img {
+    width: 400px;
+    height: 400px;
+}
+
+.home-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform .7s ease-in-out;
+}
+
+.home-img img:hover {
+    cursor: pointer;
+    transform: rotateY(180deg);
+
+}

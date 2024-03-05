@@ -1,0 +1,36 @@
+.container {
+    /* background-color: #2d545e; */
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+h1 {
+    color: #fff;
+}
+
+#photography {
+    max-width: 100%;
+    margin-top: 20px;
+    /* background-color: #F5B87C; */
+}
+
+.carousel-wrapper {
+    width: 100vw; /* Set the carousel to take up 100% of the available width */
+    height: 80vh; 
+    overflow: hidden;
+    text-align: center;
+    padding: 0;
+}
+
+.carousel-wrapper img {
+    max-width: 100%; /* Ensure the image does not exceed the container width */
+    max-height: 100%; /* Ensure the image does not exceed the container height */
+    display: block; /* Use display: block to remove any default spacing below the image */
+    margin: 0 auto; /* Center the image horizontally within the container */
+}
+
+@media (min-width: 1200px) {
+    .carousel-wrapper img {
+        max-width: 80%;
+    }
+}

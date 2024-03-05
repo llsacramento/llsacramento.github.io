@@ -1,0 +1,40 @@
+<header id="top">
+    <nav class="container">
+        <div class="logo-box">
+            <a href="/" target="">
+                <!-- <img src="../../assets/images/rence.png" alt="Rence Pogi" class="logo"> -->
+                <h3 class="logo-rence">Rence.</h3>
+            </a>
+        </div>
+        <button class="navbar-toggler" type="button" (click)="toggleMenu()">
+            <mat-icon class="menu">{{ showMenu ? 'close' : 'menu'}}</mat-icon>
+        </button>
+        <div class="parent-link">
+            <a href="#" class="social-links active">About</a>
+            <a (click)="scrollToProjects()" class="social-links">Projects</a>
+            <a (click)="scrollToPhotography()" class="social-links">Photography</a>
+            <a (click)="scrollToContact()" class="social-links">Get in touch</a>
+        </div>
+
+        <div class="responsive-menu" *ngIf="showMenu">
+            <a href="#" class="social-links">About</a>
+            <hr>
+            <a (click)="scrollToProjects()" class="social-links">Projects</a>
+            <hr>
+            <a (click)="scrollToPhotography()" class="social-links">Photography</a>
+            <hr>
+            <a (click)="scrollToContact()" class="social-links">Get in touch</a>
+        </div>
+    </nav>
+</header>
+
+
+
+
+
+
+
+
+
+
+

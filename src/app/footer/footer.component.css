@@ -1,0 +1,37 @@
+.container {
+    /* background-color: #12343b; */
+    background-color: #08253B;
+    /* background-image: linear-gradient(to right, #12343b 30%, #F7882F ); */
+    padding: 100px 50px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;;
+}
+
+h1 {
+    color: #fff;
+}
+
+.sm-icon {
+    padding: 0 1rem;
+    margin: 0;
+    color: #fff;
+    transition: all 0.6s ease-in-out;
+}
+
+.sm-icon:hover {
+    color: #00abF0;
+    transform: translateY(-5px);
+}
+
+.arrow-up:hover {
+    color: #00abF0;
+}
+
+.social-links {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
